@@ -85,7 +85,7 @@ private:
         auto it = std::find_if(callbacks_.begin(), callbacks_.end(),
             [id](const CallbackEntry& entry) { return entry.id == id; });
         if(it != callbacks_.end()) {
-            std::wcout << "unsubscribe " << it->name.c_str() << ", id " << id << std::endl;
+            std::cout << "unsubscribe " << it->name.c_str() << ", id " << id << std::endl;
             callbacks_.erase(it);
         }
     }
