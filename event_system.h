@@ -7,9 +7,6 @@
 #include <iostream>
 #include <algorithm>
 
-// Forward declarations
-class ISubscription;
-
 //-----------------------------------
 // Core Event System Components
 //-----------------------------------
